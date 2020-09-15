@@ -1,0 +1,9 @@
+import turtle as t
+t.bgcolor("black") 
+colors = ["red","orange","green","purple","blue","yellow"]
+for x in range(300):
+    t.pensize(x / 100 + 1)
+    t.pencolor(colors[x%6])
+    t.fd(x)
+    t.left(61)
+t.done()
